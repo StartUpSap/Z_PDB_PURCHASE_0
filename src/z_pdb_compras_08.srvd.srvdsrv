@@ -1,0 +1,4 @@
+@EndUserText.label: 'Documento Referencia'
+define service Z_PDB_COMPRAS_08 {
+  expose Z_PDB_COMPRAS_08;
+}

@@ -1,0 +1,4 @@
+@EndUserText.label: 'Obtener documento referencia'
+define service Z_PDB_COMPRAS {
+  expose Z_PDB_COMPRAS;
+}

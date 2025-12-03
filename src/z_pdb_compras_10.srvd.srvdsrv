@@ -1,0 +1,4 @@
+@EndUserText.label: 'Personas'
+define service Z_PDB_COMPRAS_10 {
+  expose Z_PDB_COMPRAS_10;
+}

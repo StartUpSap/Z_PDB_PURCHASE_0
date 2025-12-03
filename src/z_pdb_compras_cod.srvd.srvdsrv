@@ -1,0 +1,4 @@
+@EndUserText.label: 'Cod_Dest_Int'
+define service Z_PDB_COMPRAS_COD {
+  expose Z_PDB_COMPRAS_COD;
+}

@@ -1,0 +1,4 @@
+@EndUserText.label: 'Tax'
+define service Z_PDB_COMPRAS_TAX {
+  expose Z_PDB_COMPRAS_TAX;
+}

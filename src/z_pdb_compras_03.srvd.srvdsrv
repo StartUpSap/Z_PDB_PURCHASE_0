@@ -1,0 +1,4 @@
+@EndUserText.label: 'IGV'
+define service Z_PDB_COMPRAS_03 {
+  expose Z_PDB_COMPRAS_03;
+}

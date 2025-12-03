@@ -1,0 +1,4 @@
+@EndUserText.label: 'Obtener Base imponible'
+define service Z_PDB_COMPRAS_02 {
+  expose Z_PDB_COMPRAS_02;
+}

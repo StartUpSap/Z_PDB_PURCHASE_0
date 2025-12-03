@@ -1,0 +1,4 @@
+@EndUserText.label: 'Base Imponible'
+define service Z_PDB_COMPRAS_04 {
+  expose Z_PDB_COMPRAS_04;
+}

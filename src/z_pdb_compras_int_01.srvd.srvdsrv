@@ -1,0 +1,4 @@
+@EndUserText.label: 'Docs 91'
+define service Z_PDB_COMPRAS_INT_01 {
+  expose Z_PDB_COMPRAS_INT_01;
+}

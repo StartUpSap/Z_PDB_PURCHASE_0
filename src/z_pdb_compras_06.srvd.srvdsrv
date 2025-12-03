@@ -1,0 +1,4 @@
+@EndUserText.label: 'Cod_Dest_Nac'
+define service Z_PDB_COMPRAS_06 {
+  expose Z_PDB_COMPRAS_06;
+}
