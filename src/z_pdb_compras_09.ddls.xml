@@ -4,6 +4,7 @@
   <asx:values>
    <DDLS>
     <DDLNAME>Z_PDB_COMPRAS_09</DDLNAME>
+    <DDLANGUAGE>S</DDLANGUAGE>
     <SOURCE_TYPE>V</SOURCE_TYPE>
    </DDLS>
   </asx:values>

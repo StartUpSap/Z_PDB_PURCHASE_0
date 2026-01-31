@@ -1,0 +1,4 @@
+@EndUserText.label: 'Z_PDB_COMPRAS_06_3'
+define service Z_PDB_COMPRAS_06_3 {
+  expose Z_PDB_COMPRAS_06_3;
+}

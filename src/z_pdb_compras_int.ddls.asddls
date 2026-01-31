@@ -27,6 +27,7 @@ as select from I_JournalEntryItem //Z_PDB_COMPRAS as PDBCOMPRAS
         //substring(AssignmentReference, 1 , 10 ) as documentoreferencia,
         //substring(AssignmentReference, 12 , 15 ) as anio,
         AmountInCompanyCodeCurrency,
+        abs( AmountInCompanyCodeCurrency ) as MonIGV,
         abs( AmountInBalanceTransacCrcy ) as MonPos,
         GLAccount
 }

@@ -1,8 +1,8 @@
 @AbapCatalog.viewEnhancementCategory: [#NONE]
 @AccessControl.authorizationCheck: #NOT_REQUIRED
-@EndUserText.label: 'Odata para Columna 17'
+@EndUserText.label: 'Odata para Columna 19_2'
 @Metadata.ignorePropagatedAnnotations: true
-define view entity Z_PDB_COMPRAS_05_2 
+define view entity Z_PDB_COMPRAS_05_3 
 as select from I_JournalEntryItem as JournalEntry
 {
     key 
@@ -14,7 +14,7 @@ as select from I_JournalEntryItem as JournalEntry
     CompanyCodeCurrency,
     @Aggregation.default: #SUM
     @Semantics: { amount : {currencyCode: 'CompanyCodeCurrency'} }
-    AmountInCompanyCodeCurrency as MontoPositivo,
+    abs(AmountInCompanyCodeCurrency) as MontoPositivo,
     //FinancialAccountType
     
     case
@@ -39,5 +39,5 @@ as select from I_JournalEntryItem as JournalEntry
     
 where
         JournalEntry.Ledger = '0L'  
-    and JournalEntry.GLAccount <> '0040111010'
+    and JournalEntry.GLAccount = '0040111010'
     and JournalEntry.FinancialAccountType = 'S'

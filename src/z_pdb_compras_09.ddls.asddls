@@ -15,6 +15,9 @@ on Supplier.Supplier = JournalEntryItem.Supplier
     key 
     JournalEntryItem.AccountingDocument,
     Supplier.Supplier,
+    Supplier.SupplierName as SupplierFullName,
+    Supplier.BusinessPartnerName1,
+    Supplier.BusinessPartnerName2,
     Supplier.TaxNumberType,
     Supplier.TaxNumber1,
     JournalEntryItem.Ledger,

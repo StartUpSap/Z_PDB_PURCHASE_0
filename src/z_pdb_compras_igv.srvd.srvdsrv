@@ -1,0 +1,4 @@
+@EndUserText.label: 'Servico para tipo 46 IGV'
+define service Z_PDB_COMPRAS_IGV {
+  expose Z_PDB_COMPRAS_IGV;
+}
